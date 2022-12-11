@@ -27,3 +27,24 @@ nav a.active {
     background-color: #333;
     color: var(--accent);
 }
+
+/* Add mobile-friendly styles for small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column; /* Stack the navbar items vertically on small screens */
+    }
+  
+    .navbar-items {
+      text-align: center; /* Center the navbar items on small screens */
+    }
+  
+    .title {
+      font-size: 8rem; /* Reduce the font size of the navbar title on small screens */
+      margin-left: 0; /* Remove the margin from the navbar title on small screens */
+    }
+  
+    .navbar-items a {
+      font-size: 14px; /* Reduce the font size of the navbar items on small screens */
+      padding: 10px 12px; /* Reduce the padding on the navbar items on small screens */
+    }
+}
