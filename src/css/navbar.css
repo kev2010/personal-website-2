@@ -1,0 +1,29 @@
+.navbar {
+    display: flex; /* Display the navbar container as a flex container */
+    justify-content: space-between; /* Distribute the navbar items evenly across the container */
+    align-items: center; /* Vertically align the navbar items in the center */
+    /* background-color: #232323; Set the navbar background color */
+    height: 50px; /* Set the navbar height */
+}
+  
+/* Style the navbar title */
+.title {
+    font-size: 18px; /* Set the font size of the navbar title */
+}
+  
+/* Style the navbar items */
+.navbar-items a {
+    color: var(--text); /* Set the text color of the navbar items */
+    text-decoration: none; /* Remove the underline from the navbar items */
+    font-size: 16px; /* Set the font size of the navbar items */
+    padding: 14px 16px; /* Add some padding to the navbar items */
+}
+  
+nav a:hover {
+    color: var(--accent);
+}
+  
+nav a.active {
+    background-color: #333;
+    color: var(--accent);
+}

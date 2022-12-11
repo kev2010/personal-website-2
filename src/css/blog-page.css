@@ -1,0 +1,85 @@
+.blog-page p {
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.line {
+    width: 100%; /* Set the width of the line to span the full width of the container */
+    background-color: #ccc;
+    height: 1px;
+    border: none;
+    margin: 8px 0 24px 0; /* Add some top and bottom margin to the line */
+}
+
+.date {
+    font-size: 14px;
+    text-align: center;
+    opacity: 70%;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+figcaption {
+    font-size: 14px;
+    opacity: 70%;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+
+/* Style the table container */
+.table-container {
+    width: 80%; /* Set the width of the container to 80% of the page width */
+    margin: 0 auto; /* Center the container on the page */
+}
+  
+/* Style the table */
+table {
+    border-collapse: collapse; /* Remove the default border from the table cells */
+    width: 100%; /* Set the table width to 100% */
+}
+  
+/* Style the table headers */
+thead th {
+    background-color: #333; /* Set the background color of the headers to dark gray */
+    color: #fff; /* Set the text color of the headers to white */
+    padding: 12px; /* Add some padding to the headers */
+    font-weight: bold; /* Make the headers bold */
+}
+  
+/* Style the table cells */
+tbody td {
+    border: 1px solid #ddd; /* Add a border to the table cells */
+    padding: 12px; /* Add some padding to the cells */
+    text-align: center; /* Center the text within the cells */
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 70%;
+}
