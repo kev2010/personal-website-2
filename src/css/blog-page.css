@@ -1,4 +1,4 @@
-.blog-page p {
+.blog-page p, ol {
     line-height: 1.5;
 }
 
@@ -31,6 +31,10 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+li {
+    margin: 0.5rem 0;
 }
 
 figure {
