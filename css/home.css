@@ -22,13 +22,17 @@ h1 {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .quote {
     font-style: italic;
     font-size: 18px;
-    padding: 0 5rem 0 5rem;
+    padding: 0 7rem 0 7rem;
     line-height: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .bar {
@@ -61,7 +65,21 @@ h1 {
     text-decoration: underline;
 }
 
-
 .reading-time {
     color: var(--gold);
+}
+
+/* Add mobile-friendly styles for small screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .quote {
+        font-style: italic;
+        font-size: 14px;
+        padding: 0;
+        line-height: 1.5rem;
+    }
 }

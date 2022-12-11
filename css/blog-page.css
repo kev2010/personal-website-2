@@ -22,6 +22,10 @@
     margin: 0;
 }
 
+.slots {
+    width: 500px;
+}
+
 h1 {
     margin-bottom: 0.5rem;
 }
@@ -86,4 +90,62 @@ a {
 
 a:hover {
     opacity: 70%;
+}
+
+.hidden {
+    display: none; 
+    line-height: 1.5;
+}
+
+/* Add mobile-friendly styles for small screens */
+@media only screen and (max-width: 600px) {
+    .section-title {
+        font-size: 20px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .table-container {
+        margin: 0;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    thead, tbody {
+        font-size: 12px;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
+
+    .hidden {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
 }

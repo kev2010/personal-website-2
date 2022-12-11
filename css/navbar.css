@@ -30,16 +30,9 @@ nav a.active {
 
 /* Add mobile-friendly styles for small screens */
 @media only screen and (max-width: 600px) {
-    .navbar {
-      flex-direction: column; /* Stack the navbar items vertically on small screens */
-    }
-  
-    .navbar-items {
-      text-align: center; /* Center the navbar items on small screens */
-    }
-  
+
     .title {
-      font-size: 8rem; /* Reduce the font size of the navbar title on small screens */
+      font-size: 16px; /* Reduce the font size of the navbar title on small screens */
       margin-left: 0; /* Remove the margin from the navbar title on small screens */
     }
   
