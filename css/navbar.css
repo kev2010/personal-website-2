@@ -18,6 +18,11 @@
     font-size: 16px; /* Set the font size of the navbar items */
     padding: 14px 16px; /* Add some padding to the navbar items */
 }
+
+.navbar-header a {
+    color: var(--text); /* Set the text color of the navbar items */
+    text-decoration: none; /* Remove the underline from the navbar items */
+}
   
 nav a:hover {
     color: var(--accent);
