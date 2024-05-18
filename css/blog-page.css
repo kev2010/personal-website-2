@@ -71,14 +71,14 @@ table {
 thead th {
     background-color: #333; /* Set the background color of the headers to dark gray */
     color: #fff; /* Set the text color of the headers to white */
-    padding: 12px; /* Add some padding to the headers */
+    padding: 14px; /* Add some padding to the headers */
     font-weight: bold; /* Make the headers bold */
 }
   
 /* Style the table cells */
 tbody td {
     border: 1px solid #ddd; /* Add a border to the table cells */
-    padding: 12px; /* Add some padding to the cells */
+    padding: 14px; /* Add some padding to the cells */
     text-align: center; /* Center the text within the cells */
 }
 
@@ -104,7 +104,7 @@ a:hover {
     }
 
     .date {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     img {
@@ -112,7 +112,7 @@ a:hover {
     }
 
     p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .table-container {
@@ -120,23 +120,27 @@ a:hover {
     }
 
     a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     thead, tbody {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     figcaption {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .hidden {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     li {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
     }
 }
 

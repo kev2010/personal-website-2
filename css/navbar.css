@@ -45,4 +45,9 @@ nav a.active {
       font-size: 14px; /* Reduce the font size of the navbar items on small screens */
       padding: 10px 12px; /* Reduce the padding on the navbar items on small screens */
     }
+
+    .navbar-header a {
+        font-size: 14px; /* Reduce the font size of the navbar items on small screens */
+    }
 }
+
