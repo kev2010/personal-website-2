@@ -72,8 +72,8 @@ h1 {
 /* Add mobile-friendly styles for small screens */
 @media only screen and (max-width: 600px) {
     .container {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     .quote {
