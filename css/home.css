@@ -74,6 +74,8 @@ h1 {
     .container {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .quote {
