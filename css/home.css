@@ -11,7 +11,7 @@ body {
 
 h1 {
     color: var(--text);
-    font-size: 36px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
 }
@@ -45,6 +45,12 @@ p, a {
     height: 1px; /* Set the height of the bar */
     background-color: #333333; /* Set the bar color */
     margin: 3rem 50px; /* Add some margin to the left and right sides of the bar */
+}
+
+.divider {
+    height: 1px; /* Set the height of the bar */
+    background-color: #333333; /* Set the bar color */
+    margin: 1rem 0px;
 }
 
 .blog {
