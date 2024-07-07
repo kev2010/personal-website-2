@@ -82,6 +82,7 @@ p, a {
 .profile {
     border-radius: 9999px;
     max-width: 250px;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
