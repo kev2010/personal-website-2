@@ -16,6 +16,11 @@ h1 {
     justify-content: center;
 }
 
+p, a {
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -74,6 +79,12 @@ h1 {
     height: 20px;
 }
 
+.profile {
+    border-radius: 9999px;
+    max-width: 250px;
+    margin-bottom: 2rem;
+}
+
 /* Add mobile-friendly styles for small screens */
 @media only screen and (max-width: 600px) {
     .container {
@@ -93,6 +104,11 @@ h1 {
     .socials {
         width: 16px;
         height: 16px;
+    }
+
+    .profile {
+        max-width: 150px;
+        margin-bottom: 1.5rem;
     }
 }
 

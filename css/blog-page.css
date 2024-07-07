@@ -111,16 +111,12 @@ a:hover {
         max-width: 300px;
     }
 
-    p {
-        font-size: 14px;
+    p, a {
+        font-size: 16px;
     }
 
     .table-container {
         margin: 0;
-    }
-
-    a {
-        font-size: 14px;
     }
 
     thead, tbody {
