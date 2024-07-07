@@ -1,0 +1,16 @@
+img {
+    border-radius: 0.75rem;
+    margin-bottom: 3rem;
+    max-height: 30rem;
+}
+
+.border {
+    border: 1px solid #5D5D5D;
+}
+
+/* Add mobile-friendly styles for small screens */
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+}
