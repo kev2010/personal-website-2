@@ -33,7 +33,8 @@ p, a {
 
 .quote {
     font-style: italic;
-    font-size: 18px;
+    color: #827F7F;
+    font-size: 16px;
     padding: 0 7rem 0 7rem;
     line-height: 1.5rem;
     margin-left: 0;
@@ -41,8 +42,8 @@ p, a {
 }
 
 .bar {
-    height: 2px; /* Set the height of the bar */
-    background-color: #ddd; /* Set the bar color */
+    height: 1px; /* Set the height of the bar */
+    background-color: #333333; /* Set the bar color */
     margin: 3rem 50px; /* Add some margin to the left and right sides of the bar */
 }
 
